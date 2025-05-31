@@ -1,8 +1,8 @@
 function openImage(element) {
-  document.getElementById('fullscreen').style.display = 'flex';
-  document.getElementById('fullscreen-img').src = element.src;
+	document.getElementById('fullscreen').style.display = 'flex';
+	document.getElementById('fullscreen-img').src = element.src;
 }
 
 function closeImage() {
-  document.getElementById('fullscreen').style.display = 'none';
+	document.getElementById('fullscreen').style.display = 'none';
 }
